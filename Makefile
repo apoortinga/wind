@@ -34,7 +34,7 @@
 ################################################################################
 
 # Add source files here
-EXECUTABLE	     := werner
+EXECUTABLE	     := wind
 # Cuda source files (compiled with cudacc)
 CUFILES		     := particleSystem.cu
 CUDEPS		     := particles_kernel.cu particles_kernel.cuh particleSystem.cuh radixsort.cu radixsort.h

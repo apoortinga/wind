@@ -53,8 +53,8 @@
 #define MAX_EPSILON_ERROR 5.00f
 #define THRESHOLD         0.30f
 #define xSize 20
-#define ySize 4
-#define zSize 4
+#define ySize 6
+#define zSize 6
 
 
 /*#ifdef __DEVICE_EMULATION__

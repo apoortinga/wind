@@ -70,7 +70,7 @@ struct integrate_functor
 	//if (pos.x < -params.cellSize.x + params.particleRadius) { pos.x = -params.cellSize.x + params.particleRadius; vel.x *= params.boundaryDamping;}      
 	//if (pos.y > 1.0f - params.particleRadius) { pos.y = 1.0f - params.particleRadius; vel.y *= params.boundaryDamping; }    
         //if (pos.z > 1.0f - params.particleRadius) { pos.z = 1.0f - params.particleRadius; vel.z *= params.boundaryDamping; }
-	if (pos.z < params.cellSize.z - params.particleRadius) { pos.z = params.cellSize.z - params.particleRadius; vel.z *= params.boundaryDamping; }
+//	if (pos.z < params.cellSize.z - params.particleRadius) { pos.z = params.cellSize.z - params.particleRadius; vel.z *= params.boundaryDamping; } uit ate monday 17 sep
         //if (pos.z < -1.0f + params.particleRadius) { pos.z = -1.0f + params.particleRadius; vel.z *= params.boundaryDamping;}
 	//if (pos.z < params.worldOrigin.x + params.particleRadius) { pos.z = params.worldOrigin.x + params.particleRadius; vel.z *= params.boundaryDamping;}
 #endif
